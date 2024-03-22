@@ -1,21 +1,28 @@
-/* Sections */
-.container {
-  margin: 3rem auto;
-  max-width: 75rem;
-  padding: 3rem 1.5rem;
-  position: relative;
+/*hero-container*/
+.hero-container{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* Section Header Content */
-.header-container {
-  background-color: #DDDDDD;
-  text-align: center;
-  padding: 6rem 1rem;
+/*content-container*/
+.content-container, .content-frame{
+  background-color: antiquewhite;
+  margin: -1vw 0;
+  padding: 0;
 }
 
-/* Option header */
-.option-container {
-  text-align: center;
-  background-color: #EEEEEE;
-  padding: 3rem 1rem;
+/*accordion-container*/
+.accordion-container {
+  background-color: #f8f9fa;
+  margin: -3.5vw 0;
+  padding: 0 2vw 8vw 2vw;
+}
+
+/*footer-container*/
+.footer-container {
+  width: 100%;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
 }
